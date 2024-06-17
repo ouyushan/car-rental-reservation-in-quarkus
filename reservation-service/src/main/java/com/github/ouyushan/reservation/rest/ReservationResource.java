@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * @email: ouyushan@hotmail.com
  * @date: 2024/6/5 15:07
  */
-@Path("reservation")
+@Path("/reservation")
 @Produces(MediaType.APPLICATION_JSON)
 public class ReservationResource {
 
@@ -35,7 +35,7 @@ public class ReservationResource {
     }
 
     @GET
-    @Path("availability")
+    @Path("/availability")
     public Collection<Car> allReservations(@RestQuery LocalDate startDay, @RestQuery LocalDate endDay) {
         // obtain all cars from inventory
         List<Car> cars = inventoryClient.allCars();

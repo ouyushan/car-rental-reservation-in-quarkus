@@ -2,10 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.ouyushan</groupId>
-    <artifactId>car-rental-reservation-in-quarkus</artifactId>
+    <groupId>com.github.ouyushan.inventory</groupId>
+    <artifactId>inventory-service</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
     <properties>
         <compiler-plugin.version>3.12.1</compiler-plugin.version>
@@ -42,14 +41,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <modules>
-        <!-- 预约-->
-        <module>reservation-service</module>
-        <!-- 租车-->
-        <module>rental-service</module>
-        <!-- 库存-->
-        <module>inventory-service</module>
-    </modules>
 
     <build>
         <plugins>

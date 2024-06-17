@@ -21,6 +21,6 @@ public class InMemoryInventoryClient implements InventoryClient{
 
     @Override
     public List<Car> allCars() {
-        return List.of();
+        return cars;
     }
 }

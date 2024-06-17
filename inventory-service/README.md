@@ -1,4 +1,4 @@
-# reservation-service
+# inventory-service
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -49,24 +49,6 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Dnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/reservation-service-1.0-SNAPSHOT-runner`
+You can then execute your native executable with: `./target/inventory-service-1.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Related Guides
-
-- SmallRye OpenAPI ([guide](https://quarkus.io/guides/openapi-swaggerui)): Document your REST APIs with OpenAPI - comes
-  with Swagger UI
-- RESTEasy Classic's REST Client Jackson ([guide](https://quarkus.io/guides/resteasy-client)): Jackson serialization
-  support for the REST Client
-
-## Provided Code
-
-### REST
-
-Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
-
-## 访问
-http://localhost:8081/q/dev-ui/extensions
